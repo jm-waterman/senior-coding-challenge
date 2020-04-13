@@ -41,9 +41,7 @@ public class CompensationServiceImpl implements CompensationService {
 	public Compensation update(Compensation compensation) {
 		LOG.debug("Updating compensation [{}]", compensation);
 		
-		compensationRepository.save(compensation);
-		
-		return compensation;
+		return compensationRepository.save(compensation);
 	}
 
 	@Override
