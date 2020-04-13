@@ -1,0 +1,15 @@
+*target*
+*.jar
+*.war
+*.ear
+*.class
+
+.DS_Store
+.gradle/
+build/
+
+local.properties
+.classpath
+.settings/
+.loadpath
+.project
